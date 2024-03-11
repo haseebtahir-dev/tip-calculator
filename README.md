@@ -28,6 +28,6 @@ This frontend design was created with great efforts drawing inspiration from Boo
 ## License
 The "tip-calculator" repository is open-source and licensed under the GNU License. You are free to use, modify, and distribute the code as per the terms of the license.
 
-![Landing page](calculator.png.png)
-![Landing page](calculator1.png.png)
+![Landing page](calculator.png)
+![Landing page](calculator1.png)
 
