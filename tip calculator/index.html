@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="container">
+           <div class="box">
+            <div class="row">
+                <div class="col-6">
+                    <div class="content">
+                        <div class="bill">
+                            <p>Bill</p>
+                            <input type="text" name="" id="bill-inp">
+                            <img src="images/icon-dollar.svg">
+                        </div>
+
+                        <div class="tip">
+                            <p class="tip-para"> Select Tip %</p>
+                            <div class="percent"> 
+                                <div class="first">
+                                    <button  id="five">5%</button>
+                        
+                                
+                                    <button id="ten" >10%</button>
+                                
+                                
+                                    <button id="fifteen">15 %</button>
+                                
+                                </div>
+                                    <div class="last">
+                                    
+                                        <button id="twenty">20 %</button>
+                                    
+                                    
+                                        <button id="twnf"> 25 %</button>
+                                    
+                                    
+                                        <button id="custom"> custom</button>
+
+                                        <input type="text" name="" id="custom-input">
+                                        
+                                    
+                                    </div>
+                            </div> 
+                        </div>
+                            <div class="number-content">
+                            <p class="number-para" >Number of People</p>
+                            <input type="text" name="" id="numbers">
+                            <img src="images/icon-person.svg" alt="">
+                            <p id="error">Can't be empty</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="rightside-content">
+
+                        <div class="tip-amount">
+                            <p id="amount">Tip Amount</p>
+                            <h2 id="tip-person">$0.00</h2>
+                        </div>
+
+                        <div class="tip-amount">
+                            <p id="amount">Total</p>
+                            <h2 id="total-per">$0.00</h2>
+                        </div>
+
+                        <button id="rest"> Rest</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    <script src="code.js"></script>
+</body>
+</html>

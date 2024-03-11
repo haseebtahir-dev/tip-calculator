@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Space Mono;
+}
+
+.container {
+
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+    width: 100%;
+}
+
+.row {
+
+    margin: 0 -15px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+.col-6 {
+
+    width: 50%;
+    padding: 0 15px;
+}
+
+body {
+    background-color: hsl(185, 41%, 84%)
+}
+
+.calculator {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 10px 25px;
+}
+
+.bill {
+    position: relative;
+}
+
+.bill img {
+    position: absolute;
+    left: 10px;
+    top: 31px;
+}
+
+#bill-inp {
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: hsl(185, 41%, 84%);
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+
+
+.bill p {
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: hsl(184, 14%, 56%);
+
+}
+
+.tip {
+
+    margin-bottom: 30px;
+}
+
+.number-content {
+    position: relative;
+}
+
+.number-content img {
+    position: absolute;
+    left: 10px;
+    top: 33px;
+}
+
+.first {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.last {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.tip-para {
+
+    margin: 10px 0;
+    color: hsl(184, 14%, 56%);
+    font-size: 13px;
+}
+
+#five {
+    background-color: hsl(183, 100%, 15%);
+    width: 30%;
+    border-radius: 3px;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+#ten {
+    background-color: hsl(183, 100%, 15%);
+    width: 30%;
+    border-radius: 3px;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+#fifteen {
+    background-color: hsl(183, 100%, 15%);
+    width: 30%;
+    border-radius: 3px;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+#twenty {
+    background-color: hsl(183, 100%, 15%);
+    width: 30%;
+    border-radius: 3px;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+#twnf {
+    background-color: hsl(183, 100%, 15%);
+    width: 30%;
+    border-radius: 3px;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+#custom {
+    background-color: hsl(183, 100%, 15%);
+    width: 30%;
+    border-radius: 3px;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+#numbers {
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: hsl(185, 41%, 84%);
+    text-align: end;
+}
+
+.number-para {
+    font-size: 13px;
+    color: hsl(184, 14%, 56%);
+    margin-bottom: 6px;
+}
+
+.rightside-content {
+
+    background-color: hsl(183, 100%, 15%);
+    width: 93%;
+    height: 265px;
+    border-radius: 10px;
+}
+
+.tip-amount {
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#amount {
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+.tip-amount h2 {
+    color: hsl(172, 67%, 45%);
+}
+
+#rest {
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 3px;
+    margin: 55px 29px;
+    width: 75%;
+    padding: 6px;
+}
+
+#custom-input {
+    background-color: black;
+    width: 62px;
+    padding: 7px;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
+
+p#error {
+    color: red;
+    font-size: 10px;
+    margin: 5px 0;
+    display: none;
+}
+
+input:focus {
+
+    outline-color: hsl(172, 67%, 45%);
+}
+@media screen and (max-width:767px) {
+    .col-6{
+        width: 100%;
+    }
+    .rightside-content{
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    
+}
